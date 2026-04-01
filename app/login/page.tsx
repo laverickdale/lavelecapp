@@ -51,12 +51,12 @@ export default async function LoginPage({
             <label htmlFor="password">Password</label>
             <input className="text-input" id="password" name="password" type="password" required placeholder="At least 8 characters" />
             <div className="button-row" style={{ marginTop: 8 }}>
-              <button className="primary-button" formAction={login}>
-                Log in
-              </button>
-              <button className="secondary-button" formAction={signup}>
-                Create account
-              </button>
+              <button type="submit" className="primary-button" formAction={login}>
+  Log in
+</button>
+<button type="submit" className="secondary-button" formAction={signup}>
+  Create account
+</button>
             </div>
           </form>
         </section>
